@@ -4,6 +4,8 @@
 
 This README provides detailed instructions for installing dependencies, setting up the project, compiling the code, and running RansomGuardX on a Windows system using MSYS2 and vcpkg.
 
+![Image](https://github.com/user-attachments/assets/a3856f44-6e74-4dd2-a3ce-e8aafca2e09b)
+
 ## Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
