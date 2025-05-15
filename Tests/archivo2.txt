@@ -1,0 +1,28 @@
+SAFe (Scaled Agile Framework)
+Se describe el marco de trabajo SAFe (Scaled Agile Framework), centrado en la implementación de metodologías ágiles a gran escala dentro de organizaciones complejas. SAFe se utiliza para gestionar grandes proyectos que involucran múltiples equipos de trabajo, asegurando la entrega de valor continuo a los clientes a través de la colaboración interdepartamental y la optimización del flujo de trabajo.
+1.	Definición y Niveles del Marco SAFe:
+SAFe se organiza en varios niveles para gestionar proyectos de gran escala:
+o	Nivel de Equipo: Los equipos trabajan con user stories (historias de usuario), que son pequeñas unidades de trabajo. Estas historias ayudan a asegurar que cada equipo pueda entregar valor de manera rápida y eficiente.
+o	Nivel de Programa: En este nivel, las funcionalidades se gestionan a través de pitchers. Cada funcionalidad es desglosada en tareas más pequeñas, o user stories, para asegurar una entrega continua.
+o	Nivel de Portfolio: Aquí se gestionan epics, que son grandes iniciativas que representan funcionalidades significativas o transformaciones a nivel organizacional, tanto en términos de negocio como en aspectos técnicos, como migraciones o integraciones de sistemas. Estas epics se priorizan dentro de un backlog empresarial, el cual agrupa todas las funcionalidades y tareas a realizar.
+2.	Configuración de SAFe a Gran Escala - Large Solution SAFe:
+En organizaciones grandes, como en el caso de Microsoft, con productos tan complejos como Office, Azure, y Windows, es necesario un enfoque aún más escalado llamado Large Solution SAFe. En este modelo, múltiples Agile Release Trains (ART) colaboran para desarrollar productos complejos. Cada ART está compuesto por varios equipos enfocados en diferentes áreas del producto (por ejemplo, Excel, Word, Outlook). Además, se introducen roles adicionales como solution manager, system engineer, y solution architect, que gestionan los aspectos de producto y técnica a nivel de solución.
+3.	Roles Clave en SAFe:
+Los roles dentro de SAFe se distribuyen de manera jerárquica, siguiendo una estructura que facilita la coordinación y colaboración:
+o	En los equipos, cada miembro cumple un rol específico según sus capacidades y especialización, guiados por un Scrum Master.
+o	A nivel de programa, el Release Train Engineer (RTE) actúa como el Scrum Master de los programas, facilitando la alineación de todos los equipos y asegurando que las funcionalidades se entreguen a tiempo.
+o	A nivel de solución, el Solution Train Engineer supervisa la coordinación de los ARTs en grandes soluciones.
+4.	Principios y Filosofía Ágil en SAFe:
+SAFe se basa en la filosofía ágil de Lean Thinking, donde la principal función de la gestión es crear un entorno donde los equipos puedan trabajar de forma eficiente. Se promueve el respeto por las personas y su cultura, facilitando el flujo de trabajo, la innovación, y la mejora continua. El pensamiento sistémico es clave en este enfoque, donde la organización se ve como un sistema interconectado y la dirección debe actuar para optimizar ese sistema.
+5.	Implementación de SAFe:
+La implementación de SAFe es un proceso gradual que sigue una serie de pasos probados, conocidos como el roadmap de SAFe. Este proceso comienza con la creación de un sentido de urgencia dentro de la organización. Un ejemplo citado es el caso de Nokia, donde el CEO destacó la necesidad de cambiar antes de que fuera demasiado tarde. Los pasos clave para la transformación incluyen:
+o	Formación de líderes: Se capacita a los líderes y agentes de cambio en los principios ágiles y en la implementación de SAFe.
+o	Definición de áreas y equipos: Se decide en qué áreas o productos se implementará SAFe y se organizan los equipos o ARTs necesarios.
+o	Lanzamiento de los ARTs: Se inicia la transformación con un ART y se mide el progreso. Con el tiempo, se expanden más ARTs según las necesidades de la organización.
+o	Medición y mejora continua: Una vez implementado, es esencial medir los resultados y continuar ajustando los procesos para mejorar la eficiencia y los resultados.
+6.	Beneficios de SAFe:
+La adopción de SAFe trae consigo múltiples beneficios, como una notable reducción del time to market (entre un 30% y un 75%) y una mejora significativa en la calidad de los productos, con una disminución de defectos de entre un 25% y un 75%. También mejora la productividad de los equipos, lo que lleva a un aumento en el compromiso y satisfacción de los empleados, quienes se sienten más motivados al trabajar dentro de un entorno que fomenta la colaboración y el aprendizaje.
+7.	Casos de Éxito y Formación:
+SAFe ha sido implementado con éxito en diversas industrias, como la banca, telecomunicaciones, seguros, y en empresas de consumo como Lego. La organización proporciona recursos como artículos, guías, casos de estudio y videos para ayudar a las empresas en su proceso de implementación. Además, existen programas de formación oficial que capacitan a los agentes de cambio, a los managers, y a los equipos para aplicar correctamente las metodologías ágiles dentro del marco SAFe.
+8.	Escalabilidad y Adopción Global:
+SAFe es el marco más utilizado para escalar metodologías ágiles en grandes organizaciones. A fecha de hoy, existen más de 130,000 profesionales certificados en SAFe, y el 70% de las 100 empresas más grandes de EE. UU. ya han adoptado este marco. Existen 130 partners de SAFe en 35 países, lo que evidencia la expansión global de este marco.
