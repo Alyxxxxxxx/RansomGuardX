@@ -15,6 +15,7 @@ This README provides detailed instructions for installing dependencies, setting 
 - [Project Setup](#project-setup)
   - [Directory Structure](#directory-structure)
   - [Configuring suspicious_extensions.txt](#configuring-file-of-suspicious-extensions)
+  - - [Setting Up VS Code (Optional)](#setting-up-vs-code-optional)
 - [Compilation](#compilation)
 - [Running RansomGuardX](#running-ransomguardx)
 - [Usage](#usage)
@@ -231,6 +232,49 @@ The `FileExtensionDetectionStrategy` uses `Resources/suspicious_extensions.txt` 
 
 3. **Verify Path**:
    - Ensure the file is located at `RansomGuardX/Resources/suspicious_extensions.txt` relative to the project root.
+
+### Setting Up VS Code (Optional)
+If using Visual Studio Code for development, configure IntelliSense with `c_cpp_properties.json` to recognize include paths and compiler settings.
+
+1. **Install VS Code**:
+   - Download and install [Visual Studio Code](https://code.visualstudio.com/).
+   - Install the C/C++ extension by Microsoft (`ms-vscode.cpptools`).
+
+2. **Create `.vscode/c_cpp_properties.json`**:
+   - In the `RansomGuardX/` directory, create a `.vscode/` folder.
+   - Create `c_cpp_properties.json` with the following content:
+     ```json
+     {
+         "configurations": [
+             {
+                 "name": "Win32",
+                 "includePath": [
+                     "${workspaceFolder}/**",
+                     "C:/Users/Alyso/vcpkg/installed/x64-mingw-static/include",
+                     "C:/Users/Alyso/vcpkg/installed/x64-mingw-static/include/SDL2",
+                     "C:/msys64/ucrt64/include"
+                 ],
+                 "defines": [
+                     "SDL_MAIN_HANDLED"
+                 ],
+                 "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+                 "cStandard": "c11",
+                 "cppStandard": "c++17",
+                 "intelliSenseMode": "gcc-x64"
+             }
+         ],
+         "version": 4
+     }
+     ```
+   - **Notes**:
+     - Adjust `"C:/Users/Alyso/vcpkg/..."` to your vcpkg installation path if different.
+     - Ensure `"compilerPath"` points to the UCRT64 `g++.exe` (e.g., `C:/msys64/ucrt64/bin/g++.exe`).
+     - The `"defines"` section includes `SDL_MAIN_HANDLED` to match the code’s configuration.
+
+3. **Verify IntelliSense**:
+   - Open `RansomGuardX/` in VS Code.
+   - Open `main.cpp` and check that includes (e.g., `<SDL2/SDL.h>`, `"imgui.h"`) resolve without errors.
+   - Ensure autocompletion and go-to-definition work for SDL2 and ImGui functions.
 
 ## Compilation
 Compile RansomGuardX using the MSYS2 MinGW64 terminal.
